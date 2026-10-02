@@ -104,7 +104,7 @@ class Shopping {
    * @param {boolean} istWarnung - steuert, ob die {@link nachricht} als Warnung ausgegeben wird
    */
   laden() {
-    const gespeicherteDaten = localStorage.getItem("lerniland")
+    const gespeicherteDaten = localStorage.getItem("vkm-pia-todo")
 
     if (!gespeicherteDaten) {
       return false
@@ -136,7 +136,7 @@ class Shopping {
         console.log(nachricht)
       } else {
         console.debug(nachricht)
-        localStorage.setItem("lerniland", JSON.stringify(this.gruppenListe))
+        localStorage.setItem("vkm-pia-todo", JSON.stringify(this.gruppenListe))
       }
     }
   }
