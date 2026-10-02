@@ -1,10 +1,10 @@
 #root {
     width: 23rem;
-    background-image: url("../img/ninja2.png");
+    background-image: url("../img/2021_Logo_vkm.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: inherit;
-    background-color: yellow;
+    background-color: whitesmoke;
 }
 
 #container {
